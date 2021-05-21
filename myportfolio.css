@@ -366,11 +366,19 @@ h2 {
 
   
   .extra1{
-    height:410px;
-    width:360px;
+    height:390px;
+    width:320px;
     padding-top: 30px;
     padding-left: 0px;
   }
+
+  .image {
+    padding-top: 20px;
+    padding-left: 5px;
+    line-height: 20px;
+    float: none;
+  }
+
   .sidebase a.dropdownIcon{
     display: inline-block;
   }
@@ -528,7 +536,7 @@ h2 {
 
   .adjust{
     height: 155px;
-    width: 185px;
+    width: 155px;
   }
   
 }
