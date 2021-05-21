@@ -1,0 +1,536 @@
+
+* {
+  margin: 0 0 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.back {
+  background-image: url("image/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 20px;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(7, 7, 7);
+  padding-top: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/**  css for navigation  bar  **/
+
+.navigation {
+  position: fixed;
+  background-color: rgb(0, 255, 255);
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 95%;
+  margin-bottom: 0px;
+  z-index: 1;
+}
+
+.dropdownIcon{
+  display: none;
+}
+
+.Name ul li {
+  display: inline;
+  padding: 10px;
+  float:left; 
+}
+
+
+.extra {
+  height: 45px;
+  width: 40px;
+  border-radius: 65px;
+}
+
+.edit {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(218, 170, 16);
+  line-height: 50px;
+}
+
+.sidebase {
+  text-align: right;
+  line-height: 70px;
+}
+
+.sidebase a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Red Hat Display";
+  font-style: italic;
+}
+
+.sidebase a:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+  cursor: pointer;
+}
+
+/** css for home **/
+
+.second {
+  padding-top: 60px;
+}
+
+.image {
+  padding-top: 20px;
+  padding-left: 10px;
+  line-height: 20px;
+  float: left;
+}
+
+.text {
+  text-align: center;
+  color: rgb(29, 26, 26);
+  font-size: 30px;
+}
+
+.text-right {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.Bold {
+  font-size: 50px;
+  color: rgb(21, 21, 73);
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.extra1 {
+  height: 600px;
+  width: 450px;
+  border-radius: 15px;
+}
+
+.some {
+  font-size: 30px;
+  text-align: center;
+  padding-left: 550px;
+  padding-top: 1.5px;
+  padding-bottom: 2px;
+  padding-right: 30px;
+}
+
+/**  css for about  **/
+
+.bio {
+  float: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.reset {
+  padding-left: 265px;
+  font-size: 20px;
+}
+
+.intro {
+  display: inline;
+  font-size: 20px;
+  padding-left: 145px;
+  padding-top: 30px;
+}
+
+.part {
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+.DOB {
+  padding-left: 83px;
+  font-size: 20px;
+  display: inline;
+}
+
+.Add {
+  display: inline;
+  font-size: 20px;
+  padding-left: 122px;
+}
+
+.ma {
+  display: inline;
+  font-size: 20px;
+  padding-left: 148px;
+}
+
+.intro2 {
+  display: inline;
+  font-size: 20px;
+  padding-left: 120px;
+}
+
+.intro4 {
+  display: inline;
+  font-size: 20px;
+  padding-left: 143px;
+}
+
+.intro3 {
+  display: inline;
+  font-size: 20px;
+  padding-left: 33px;
+}
+
+.middle {
+  background-image: url("image/middle_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 1%;
+}
+
+.container {
+  border: auto;
+  padding-left: 20px;
+  padding-top: 20px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-color: burlywood;
+  padding-bottom: 10px;
+}
+
+.good {
+  margin: 5px 440px 30px 470px;
+}
+
+/** css for academics **/
+
+.other {
+  font-size: 25px;
+}
+
+.side {
+  text-align: left;
+}
+
+.pp {
+  padding: 25px;
+  padding-left: 50px;
+}
+
+.clubs {
+  padding: 25px;
+  padding-left: 50px;
+}
+
+.Courses {
+  padding: 25px;
+  padding-left: 50px;
+}
+
+.hack {
+  padding: 25px;
+  padding-left: 50px;
+}
+
+.academics {
+  box-shadow: 5px 5px 4px rgb(0, 0, 0, 0.25);
+  margin: 15px 15px 15px 15px;
+  border-radius: 10px;
+}
+
+/** css for skills  **/
+
+.box {
+  border: 1px solid black;
+  width: 30%;
+  margin: 1%;
+  float: left;
+  box-shadow: 5px 5px 4px rgba(0,0,0,0.25);
+}
+
+.adjust{
+  height: 420px;
+  width: 455px;
+}
+
+.float-container {
+  position: relative;
+}
+
+/**  css for achievements  **/
+
+.achi {
+  padding: 1%;
+  background-image: linear-gradient(#b0f3f1, #ffcfdf);
+  float: none;
+}
+
+.mid {
+  text-align: center;
+  font-size: 25px;
+}
+
+/** css for contact  **/
+
+.social ul {
+  list-style-type: none;
+  padding-top: 2%;
+}
+
+.social ul li {
+  display: inline;
+}
+
+.social ul li a {
+  text-align: center;
+  padding-left: 17%;
+  padding-bottom: 2%;
+}
+
+/** css for footer  **/
+
+.footer {
+  text-align: center;
+  padding-bottom: 2%;
+  font-size: 25px;
+  padding-top: 3%;
+}
+
+#home,
+#about,
+#academics,
+#skills,
+#achievements,
+#social {
+  padding-top: 80px;
+}
+
+@media only screen and (max-width:768px){
+
+  #home,
+  #about,
+  #academics,
+  #skills,
+  #achievements,
+  #social {
+    padding-top: 25px;
+  }
+  .Name ul li {
+    padding: 10px;
+    display: none;
+  }
+  
+  .navigation {
+    border-radius: 8px;
+    padding-left: 1px;
+    padding-right: 2px;
+    width: 90%;
+    background-color: initial;
+  }
+
+  .sidebase a.visible{
+    display: block;
+    float: left;
+  }
+
+  .sidebase a{
+    padding:1.5px;
+    font-size:25px;
+    display: none;
+    color:navy;
+  }
+
+  .sidebase.responsive{
+    position: relative;
+  }
+
+  .sidebase.responsive a.dropdownIcon{
+    position:absolute;
+    top:0;
+    right:0;
+  }
+
+  .sidebase.responsive a{
+    display: inline-block;
+  }
+
+  
+  .extra1{
+    height:410px;
+    width:360px;
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+  .sidebase a.dropdownIcon{
+    display: inline-block;
+  }
+
+  .text {
+    text-align: center;
+    color: rgb(29, 26, 26);
+    font-size: 25px;
+  }
+  
+  .text-right {
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+  }
+  
+  .Bold {
+    font-size: 30px;
+    color: rgb(21, 21, 73);
+    padding-top: 10px;
+    padding-bottom: 2.5px;
+  }
+  
+  .some {
+    font-size: 20px;
+    text-align: center;
+    padding: 1px 2px 1px 2px;
+  }
+
+  .good{
+    margin: 1px 2px 1px 2px;
+  }
+  
+  .bio {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .reset {
+    padding-left: 160px;
+    font-size: 17px;
+  }
+  
+  .intro {
+    font-size: 17px;
+    padding-left: 90px;
+    padding-top: 10px;
+  }
+  
+  .part {
+    font-size: 17px;
+    padding-left: 5px;
+  }
+  
+  .DOB {
+    padding-left: 50px;
+    font-size: 17px;
+  }
+  
+  .Add {
+    font-size: 17px;
+    padding-left: 60px;
+  }
+  
+  .ma {
+    font-size: 17px;
+    padding-left: 60px;
+  }
+  
+  .intro2 {
+    font-size: 17px;
+    padding-left: 65px;
+  }
+  
+  .intro4 {
+    font-size: 17px;
+    padding-left: 60px;
+  }
+  
+  .intro3 {
+    font-size: 17px;
+    padding-left: 5px;
+  }
+  
+  .middle {
+    padding-top: 1px;
+  }
+  
+  .container {
+    border: 0 0 0 0;
+    padding-left: 3px;
+    padding-top: 2px;;
+    border-radius: 20px;
+    padding-bottom: 2px;
+  }
+
+  .pp {
+    padding: 15px;
+    padding-left: 30px;
+  }
+  
+  .clubs {
+    padding: 15px;
+    padding-left: 30px;
+  }
+  
+  .Courses {
+    padding: 15px;
+    padding-left: 30px;
+  }
+  
+  .hack {
+    padding: 15px;
+    padding-left: 30px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(7, 7, 7);
+    padding-top: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+
+  .academics{
+    margin: 3px 5px 5px 3px;
+  }
+
+  .social ul li a{
+    padding-left: 12%;
+  }
+
+  .box {
+    border: 1px solid black;
+    width: 45%;
+    margin: 1%;
+    float: left;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.25);
+  }
+  
+  .float-container {
+    position: relative;
+  }
+
+  .skills{
+    padding: 5px;
+  }
+
+  .create{
+    height:50px;
+    width: 50px;
+  }
+
+  .adjust{
+    height: 155px;
+    width: 185px;
+  }
+  
+}
+
+

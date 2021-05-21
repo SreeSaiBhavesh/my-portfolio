@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myportfolio.css">
+    <link rel="icon" href="image/Bhavesh logo.jpg">
+    <title>Personal Portfolio of VSSB.</title>
+</head>
+
+<body>
+
+    <section class="back">
+
+        <section class="navigation">
+        
+        
+            <div class="Name">
+                <ul>
+                    <li>
+                        <img src="image/Bhavesh logo.jpg" alt="mine" class="extra">
+                    </li>
+    
+                    <li>
+                        <p class="edit"><b>VSSB</b></p>
+                    </li>
+                </ul>
+               
+            </div>
+    
+            <div class="sidebase" id="dropdownClick">
+                <a href="#home" class="visible">Home</a>
+                <a href="#about">About</a>
+                <a href="#academics">Academics</a>
+                <a href="#skills">Skills</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#social">Contact</a>
+                <a href="javascript:void(0);" class="dropdownIcon" onclick="dropdownMenu()">&#9776;</a>
+            </div>
+            <div class="clearfix"></div>
+
+            <script>
+                function dropdownMenu(){
+                    var x = document.getElementById("dropdownClick");
+                    if(x.className === "sidebase"){
+                        x.className += "responsive";
+                    }
+                    else{
+                        x.className = "sidebase";
+                    }
+                }
+            </script>
+
+        </section>
+    
+    
+    
+        <section class="second" id="home">
+    
+            <div class="image">
+                <img src="image/Bhavesh main.jpg" alt="My image" class="extra1">
+            </div>
+    
+            <div class="text">
+    
+                <p>Hi! I am,</p>
+                <p class="Bold">Veera Bomma Sree Sai Bhavesh</p>
+                <p class="text-right">Student at Vellore Institute of Technology, Vellore.</p>
+                <p class="Bold">Welcome!</p>
+                <p class="some">I'm currently pursing <i>my Bachelors from Computer Science and Engineering from Vellore Institute of Technology.</i>I currently learning Web development and Machine Learning. I am part of <b>Tech</b> domains of<b> VITMAS</b> and <b>TAM AI & ML </b>Clubs of VIT.</p>
+                <p class="Bold">Bienvenue!</p>
+                <p class="some">Je suis actuellement pursing mes baccalauréats en informatique et en ingénierie de Vellore Institute of Technology.I actuellement l’apprentissage du développement Web et l’apprentissage automatique. Je fais partie des clubs <b>VITMAS</b> et <b>TAM AI & ML</b> de VIT.</p>
+            
+            </div>
+             
+        </section>
+    
+    </section> 
+
+    <section class="middle" id="about">
+
+        <h1>About Me</h1>
+
+        <div class="good">
+
+            <div class="container">
+                <div class="bio ">
+                    <b class="part">Name: </b> <p class="intro"> V. Sree Sai Bhavesh.</p> 
+                </div>
+        
+                <div class="bio ">
+                    <b class="part">Date of Birth: </b><p class="DOB"> Apr22, 2003.</p>
+                </div>
+        
+                <div class="bio ">
+                    <b class="part">Address: </b><p class="Add"> Sainagar 7<sup>th</sup> cross,</p>
+                    <p class="reset">         Anantapuram,</p>
+                    <p class="reset">         Andhra Pradesh.</p>
+                </div>
+        
+                <div class="bio">
+                    <b class="part">Email: </b><p class="ma"> saibhavesh8@gmail.com.</p>
+                </div>
+        
+                <div class="bio">
+                    <b class="part">Phone: </b><p class="intro4"> 9515736045.</p>
+                    
+                </div>
+        
+                <div class="bio">
+                    <b class="part">secondary school: </b><p class="intro3"> Narayana educational Institutions.</p>
+                    
+                </div>
+
+                <div class="bio">
+                    <b class="part">Interests: </b> </b><p class="intro2"> CS, Dance, Drawing.</p>
+                    
+                </div>
+        
+    
+            </div>
+            
+
+        </div>
+
+        
+
+    </section>
+
+    <section class="nice" id="academics">
+        <div class="academics">
+
+            <h1>Academics</h1>
+            <div class="win">
+                
+    
+                <div class="pp">
+                    <h2 class="side">Education</h2>
+                    <p class="other">Narayana Schools - VIII to X (2015-2018).</p>
+                    <p class="other">Narayana Junior College - XI to XII (2018-2020).</p>
+                    <p class="other">Vellore Institute of Technology - Btech in computer Science (2020-present).</p>
+                </div>
+    
+                <div class="clubs">
+                    <h2 class="side">Clubs</h2>
+                    <p class="other">VITMAS Club member.</p>
+                    <p class="other">TAM AI & ML Club member.</p>
+                </div>
+    
+                <div class="Courses">
+                    <h2 class="side">Courses</h2>
+                    <p class="other">Web Design Professionally: Real World Project.</p>
+                </div>
+    
+                <div class="hack">
+                    <h2 class="side">Hacktons</h2>
+                    <p class="other">ihack'21.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+
+        <h1>My Skills</h1>
+
+        <div class="box float-container">
+
+            <img src="image/c language.webp" alt="C language" class="adjust">
+
+        </div>
+        
+        <div class="box float-container">
+
+            <img src="image/python.jpg" alt="Python" class="adjust">
+
+        </div>
+
+        <div class="box float-container">
+
+            <img src="image/C++.jpg" alt="C++ language" class="adjust">
+
+        </div>
+
+        <div class="box float-container">
+
+            <img src="image/html5.webp" alt="html5" class="adjust">
+
+        </div>
+
+        <div class="box float-container">
+
+            <img src="image/css3.png" alt="CSS3" class="adjust">
+
+        </div>
+
+        <div class="clearfix"></div>
+
+    </section>
+
+    <section class="achi" id="achievements">
+        <h1>Achievements</h1>
+
+        
+        <h2>9<sup>th</sup> SOF INTERNATIONAL MATHEMATICS OLYMPIAD</h2>
+                
+        <p class="mid">International Rank: 811</p>
+        <p class="mid">State Rank: 487</p>
+        <p class="mid">City Rank: 31</p>
+        <p class="mid">School Rank: 1</p>
+
+
+        <h2>18<sup>th</sup> SOF NATIONAL SCIENCE OLYMPIAD</h2>
+        <p class="mid">International Rank: 31</p>
+        <p class="mid">State Rank: 8</p>
+        <p class="mid">City Rank: 2</p>
+        <p class="mid">School Rank: 1</p>
+        
+        <h2>Winner of the techinal quiz - school level.</h2>
+            
+        <h2>Jeemain - 97.7per.</h2>
+           
+    </section>
+
+    <section class="social" id="social">
+
+        <h1>Contact</h1>
+
+        <ul>
+            <li>
+                <a href="#"><img src="image/facebook-new.png" class="create"></a>
+            </li>
+            <li>
+                <a href="#"><img src="image/instagram-new.png" class="create"></a>
+            </li>
+
+            <li>
+                <a href="#"><img src="image/whatsapp.png" class="create"></a>
+            </li>
+
+        </ul>
+
+        <div class="clearfix"></div>
+        
+    </section>
+
+    <section class="footer ">
+        <p>All rights reserved. Designed by Bhavesh.</p>
+    </section>
+
+</body>
+</html>
